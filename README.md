@@ -2,4 +2,6 @@
 
 ## Yuseok!
 
-[Rachel Real Website](racheldevorah.studio)
+[what is this hyperlink](probably_404.studio)
+
+**ooo bold**
