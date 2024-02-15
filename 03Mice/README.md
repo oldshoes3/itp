@@ -11,9 +11,11 @@
 - Having a calculation for 3 -> just (5 - 2)
 
 ## How?
-3 - (new line)
-(tap) - 'Blind' - (new line)
-(tap) - (tap) - 'Mice'
+- 3 - (new line)
+- (tap) - 'Blind' - (new line)
+- (tap) - (tap) - 'Mice'
+
+- put 5 - 2 instead of 3 -> maybe more complex calculation?
 
 ## problem
-If the file is in the github repository and run it, the error (can't find '__main__' module in ...) shows up. If the file is in other folder in my laptop, run without error.
+If the file is in the github repository and run it, the error (can't find '__main__' module in ...) shows up. If the file is in other folder in my laptop, it runs without error.
