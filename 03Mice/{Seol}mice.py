@@ -1,0 +1,1 @@
+print(f'{5 - 2}\n\tBlind\n\t\tMice')
