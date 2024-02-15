@@ -2,9 +2,12 @@
 
 ## What?
 - a python file ({Seol}mice.py) that prints following:
- 3
- 	Blind
- 		Mice
+
+		3
+			Blind
+				Mice
+
+
 - Having a calculation for 3 -> just (5 - 2)
 
 ## How?
