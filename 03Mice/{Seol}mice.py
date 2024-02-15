@@ -1,3 +1,2 @@
-calculation_for_three = 5 - 2
-# replace more complex formula later
+calculation_for_three = int(1 / 2 * 3 / 4 * 5 / 6 * 7 / 8 * 9 / 10 * 11 / 12 * 13 / 14 * 15)
 print(f'{calculation_for_three}\n\tBlind\n\t\tMice')
