@@ -11,9 +11,10 @@
 - Having a calculation for 3 -> just (5 - 2)
 
 ## How?
-- 3 - (new line)
-- (tap) - 'Blind' - (new line)
-- (tap) - (tap) - 'Mice'
+- print function
+    - 3 - (new line)
+    - (tap) - 'Blind' - (new line)
+    - (tap) - (tap) - 'Mice'
 
 - put 5 - 2 instead of 3 -> maybe more complex calculation?
 - (new line) -> \n
