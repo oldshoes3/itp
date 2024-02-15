@@ -8,7 +8,8 @@
 				Mice
 
 
-- Having a calculation for 3 -> just (5 - 2)
+- Having a calculation for 3
+    - 1 / 2 * 3 / 4 * 5 / 6 * 7 / 8 * 9 / 10 * 11 / 12 * 13 / 14 * 15 -> round off
 
 ## How?
 - print function
@@ -16,7 +17,7 @@
     - (tap) - 'Blind' - (new line)
     - (tap) - (tap) - 'Mice'
 
-- put 5 - 2 instead of 3 -> maybe more complex calculation?
+- put the above formula instead of 3
 - (new line) -> \n
 - (tap) -> \t
 
