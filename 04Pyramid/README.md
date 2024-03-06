@@ -4,6 +4,7 @@
 
 - What?
 	- a python file Seol_pyramid.py that prints:
+
 		       #
 		      ##
 		     ###
