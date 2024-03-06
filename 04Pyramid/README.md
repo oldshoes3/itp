@@ -3,9 +3,9 @@
 ## 1. Pyramid
 
 - What?
-	- a python file Seol_pyramid.py that prints:
+    - a python file Seol_pyramid.py that prints:
 
-```
+<pre>
                #
               ##
              ###
@@ -14,15 +14,15 @@
           ######
          #######
         ########
-```
+</pre>
 
 - How?
-	- 1st: variable [stacks]: ask use the input; limit the number between 1 and 8.
-	    - if stack < 1 or stacks > 8: print something like 'plz input a number within the range of 1-8'
-	    - else: next
-	- 2nd:
+    - 1st: variable [stacks]: ask use the input; limit the number between 1 and 8.
+        - if stack < 1 or stacks > 8: print something like 'plz input a number within the range of 1-8'
+        - else: next
+    - 2nd:
 
-```
+<pre>
 	if stack == 1  
 		one row: 0 space + 1 #  
 	if stack == 2  
@@ -46,9 +46,30 @@
 		mth row: (n-m) spaces + m #s  
 		...  
 		nth row: (n-n) spaces + n #s
-```
+</pre>
 
     - It's possible to have only one for loop
         - use [for i in range(1, stacks+1)], so 1st iteration has i = 1, nth iteration has i = n
         - in each iteration, print ' ' * (stacks - n)
         - in each iteration, print '#' * n
+        - No Why this is in a code block
+
+## 2. Fizzbuzz
+
+- What?
+    - a python file Seol_fizzbuzz.py that prints integers from 1 to 100, except:
+        - integers divisible by 3 turn "Fizz"
+        - integers divisible by 5 turn "Buzz"
+        - integers divisible by both 3 and 5 turn "FizzBuzz"
+
+- How?
+    - have for loop, have 100 iteration
+        - let's make range(1, 101) so the i starts from 1 to 100
+    - if: i % 3 and 5 == 0 -> FizzBuzz
+        - multiples of 15 will be filtered here. The next lines are all not multiples of 15
+    - elif i % 3 == 0 -> Fizz
+        - multiples of 3 but not 15 will be filtered.
+    - elif i % 5 == 0 -> Buzz
+        - multiples of 5 but not 3 nor 15 will be filtered.
+    - else -> i
+        - here all integers that are not multiples of 3, 5, nor 15
