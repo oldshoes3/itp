@@ -3,7 +3,8 @@
 ## 1. Pyramid
 
 - What?
-    - a python file Seol_pyramid.py that prints:
+    - a python file Seol_pyramid.py that takes input between 1 and 8
+    - if input is 8, prints the following.
 
 <pre>
                #
@@ -15,6 +16,8 @@
          #######
         ########
 </pre>
+
+    - if input is less than 8, [...]
 
 - How?
     - 1st: variable [stacks]: ask use the input; limit the number between 1 and 8.
@@ -64,7 +67,7 @@
 
 - How?
     - have for loop, have 100 iteration
-        - let's make range(1, 101) so the i starts from 1 to 100
+        - let's have range(1, 101) so the i (index) starts from 1 to 100
     - if: i % 3 and 5 == 0 -> FizzBuzz
         - multiples of 15 will be filtered here. The next lines are all not multiples of 15
     - elif i % 3 == 0 -> Fizz
