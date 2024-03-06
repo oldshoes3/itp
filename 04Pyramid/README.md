@@ -4,6 +4,7 @@
 
 - What?
 	- a python file Seol_pyramid.py that prints:
+
 ```
                #
               ##
@@ -20,6 +21,7 @@
 	    - if stack < 1 or stacks > 8: print something like 'plz input a number within the range of 1-8'
 	    - else: next
 	- 2nd:
+
 ```
 	if stack == 1  
 		one row: 0 space + 1 #  
