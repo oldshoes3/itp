@@ -48,7 +48,7 @@
 		nth row: (n-n) spaces + n #s
 ```
 
-        - It's possible to have only one for loop
-	    - use [for i in range(1, stacks+1)], so 1st iteration has i = 1, nth iteration has i = n
-	    - in each iteration, print ' ' * (stacks - n)
-	    - in each iteration, print '#' * n
+- It's possible to have only one for loop
+    - use [for i in range(1, stacks+1)], so 1st iteration has i = 1, nth iteration has i = n
+    - in each iteration, print ' ' * (stacks - n)
+    - in each iteration, print '#' * n
