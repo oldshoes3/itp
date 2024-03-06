@@ -18,7 +18,7 @@
 	    - if stack < 1 or stacks > 8: print something like 'plz input a number within the range of 1-8'
 	    - else: next
 	- 2nd:
-		if stack == 1
+> if stack == 1
 			one row: 0 space + 1 #
 		if stack == 2
 			1st row: 1 space + 1 #
