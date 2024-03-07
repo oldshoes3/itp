@@ -71,4 +71,4 @@
 - multiples of 3 -> Fizz
 - bultiples of 5 -> Buzz
 - else -> i
-- increase i
+- increase i -> no I don't need it
