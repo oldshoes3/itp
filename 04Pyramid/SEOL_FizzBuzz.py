@@ -7,3 +7,4 @@ for i in range(1, 101):
         print('Buzz')
     else:
         print(i)
+    # i += 1 <- sory I deleted this line after the deadline
