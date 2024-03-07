@@ -20,7 +20,7 @@
 - if input is less than 8, [...]
 
 ### How?
-- 1st: variable [stacks]: ask use the input; limit the number between 1 and 8.
+- 1st: variable [stacks]: ask user the input; limit the number between 1 and 8.
     - if stack < 1 or stacks > 8: print something like 'plz input a number within the range of 1-8'
     - else: next
 - 2nd:
