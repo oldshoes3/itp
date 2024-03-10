@@ -34,10 +34,11 @@ print('*' * (i ** 2))
 
 
 - concern:
-   - It seems this assignment was intended for utilizing function defination and call
-    - get_power(x, n) seems to be for a powering function instead of just write (i ** 2)
-    - print_graph(n) seems to be for a function
-  - write the code:
+     - It seems this assignment was intended for utilizing function defination and call
+        - get_power(x, n) seems to be for a powering function instead of just write (i ** 2)
+        - print_graph(n) seems to be for a function
+    - write the following code.
+        - looks more complex. commented out
 
 <pre>
 def get_power(x, n):
@@ -49,6 +50,3 @@ def print_graph(n):
 for i in range(-8, 9):
     print_graph(get_power(i, 2))
 </pre>
-
-  - looks a little complex
-  - comment out
