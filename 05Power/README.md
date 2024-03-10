@@ -13,7 +13,7 @@ for i in range(-8, 9):
     - 2nd row: i == -7, 49 '*'s
     - 3rd row: i == -6, 36 '*'s
     - ...
-    - 9th row: i == 0, zero s
+    - 9th row: i == 0, zero *
     - 10th row: i == 1, 1 '*'
     - 11th row: i == 2, 4 '*'
     - ...
