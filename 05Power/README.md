@@ -36,7 +36,7 @@ print('*' * (i ** 2))
 - concern:
      - It seems this assignment was intended for utilizing function defination and call
         - get_power(x, n) seems to be for a powering function instead of just write (i ** 2)
-        - print_graph(n) seems to be for a function
+        - print_graph(n) seems to be for a function that tells 'print the character '*' n times
     - write the following code.
         - looks more complex. commented out
 
