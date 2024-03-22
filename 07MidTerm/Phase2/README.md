@@ -27,7 +27,7 @@ line(75, 123, 75, 140)
 line(96, 123, 96, 140)
 </pre>
 the result is
-![alt text](C:\D_fake\GitHub\itp\07MidTerm\Phase2)
+![alt text](head_and_teeth1.png)
 
 
 
