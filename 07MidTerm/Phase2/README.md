@@ -62,7 +62,7 @@ quad(95.5, 100, 98.5, 140, 117.5, 138, 114.5, 99)
 </pre>
 - the result is
 ![alt text](head_and_teeth5.png)'
-- I still don't like but move on
+- I did't figure out how to round the edge of quads, but the image looks not bad
 
 ## eyes and nose
 - Eyes are circle, nose is triangle, and they are filled with black

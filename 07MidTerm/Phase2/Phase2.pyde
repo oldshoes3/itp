@@ -7,12 +7,12 @@ def draw():
     fill(255) # fill shapes with white
     noStroke() # no boundaries of shapes
     arc(75, 70, 135, 120, 0.65 * PI, 2.35 * PI, OPEN) # head
-    quad(35.5, 99, 32.5, 138, 51.5, 140, 54.5, 100) # left-most tooth
+    quad(35, 99, 31, 135, 50, 140, 55, 100) # left-most tooth
     rect(55, 100, 19, 40, 0, 0, 5.2, 5.2) # second left tooth
     rect(76, 100, 19, 40, 0, 0, 5.2, 5.2) # second right tooth
-    quad(95.5, 100, 98.5, 140, 117.5, 138, 114.5, 99) # right-most tooth
-    fill(0) # fill following shapes with black
-    circle(50, 60, 30) # left eye
-    circle(100, 60, 30) # right eye
-    triangle(75, 75, 65, 102, 85, 102) # nose
-    save("head_and_teeth6.png")
+    quad(95, 100, 100, 140, 119, 135, 114, 99) # right-most tooth
+#    fill(0) # fill following shapes with black
+#    circle(50, 60, 30) # left eye
+#    circle(100, 60, 30) # right eye
+#    triangle(75, 75, 65, 102, 85, 102) # nose
+    save("head_and_teeth5.png")
