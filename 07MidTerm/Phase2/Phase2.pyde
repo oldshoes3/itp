@@ -15,3 +15,4 @@ def draw():
     circle(50, 60, 30) # left eye
     circle(100, 60, 30) # right eye
     triangle(75, 75, 65, 102, 85, 102) # nose
+    save("head_and_teeth6.png")
