@@ -1,6 +1,7 @@
 # Midterm Project - Phase 2: Translate to Processing.py Sketch
 
 ## canvas setup
+
 The size of the canvas is 150, 150, accordingly from the instruction
 <pre>
 size(150, 150)
@@ -11,6 +12,7 @@ background(0)
 </pre>
 
 ## Head: an ellipse that has slightly longer width, filled with white
+
 <pre>
 fill(255)
 noStroke()
@@ -18,6 +20,7 @@ ellipse(75, 70, 135, 120)
 </pre>
 
 ## Teeth:
+
 - first I tried a long rectangle with three lines that seperate each of teeth
 <pre>
 rect(33, 100, 84, 40) # long rectangle
@@ -46,6 +49,7 @@ rect(97, 100, 19, 40, 0, 0, 5.2, 5.2)
 - Because of the undeline ellipse for head, the lines that seperate teeth have different length. Instead of ellipse, change to arc for the head.
 
 ## Back to head:
+
 - I had to spend a lot of time to figure out what is start and stop parameters for art()...
 <pre>
 arc(75, 70, 135, 120, 0.65 * PI, 2.35 * PI, OPEN)
@@ -55,6 +59,7 @@ arc(75, 70, 135, 120, 0.65 * PI, 2.35 * PI, OPEN)
 - Now I wanted to tilt the left- and right-most teeth.
 
 ## Back to teeth:
+
 - replace two rectangles (left- and right-most) to quad
 <pre>
 quad(35.5, 99, 32.5, 138, 51.5, 140, 54.5, 100)
@@ -65,6 +70,7 @@ quad(95.5, 100, 98.5, 140, 117.5, 138, 114.5, 99)
 - I did't figure out how to round the edge of quads, but the image looks not bad
 
 ## eyes and nose
+
 - Eyes are circle, nose is triangle, and they are filled with black
 <pre>
 fill(0)
@@ -74,8 +80,3 @@ triangle(75, 75, 65, 102, 85, 102)
 </pre>
 - the result is
 ![alt text](head_and_teeth6.png)'
-
-
-<pre>
-
-</pre>
