@@ -2,8 +2,9 @@
 
 ## how to draw
 
-- The background will be somewhat grey?
-- The main figure consists of one incomplete circle (use ark()) and three lines.
-- One triangle for the nose.
-- Three small lines for teeth.
-- All shapes have think lines???
+- The background will be black, the object will be white 
+    - ->from phase 3 the objects will be random colored)
+- The main figure consists of an ellipse for head, a long rectangle with three lines for theeth
+    - ->in phase 2 I changed to arc for head, and 4 rectangles for each of teeth)
+- 1 triangle for the nose, filled with black
+- 2 circles for the eyes, filled with black

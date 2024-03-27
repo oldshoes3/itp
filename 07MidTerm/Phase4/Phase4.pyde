@@ -1,5 +1,5 @@
 def setup():
-    frameRate(3)
+    frameRate(1)
     size(720, 720)
     background(0)
 
@@ -9,7 +9,7 @@ def drawObject(x, y, s, r=255, g=255, b=255):
     scale(s)
     fill(r, g, b)
     noStroke()
-    arc(65, 60, 130, 110, 0.65 * PI, 2.35 * PI, CHORD) # shifted -10
+    arc(65, 55, 130, 110, 0.65 * PI, 2.35 * PI, CHORD) # shifted -10
 
     for i in range(4):
         pushMatrix()
@@ -26,7 +26,7 @@ def drawObject(x, y, s, r=255, g=255, b=255):
  
 def draw():
 #    noLoop()
-    n = 2
+    n = 255
     if type(n) is float:
         m = int(n) + 1
     else:

@@ -5,7 +5,7 @@ def setup():
 def draw():
     fill(255)
     noStroke()
-    ellipse(75, 70, 130, 110)
+    ellipse(75, 65, 130, 110)
     rect(35, 110, 80, 30) # long rectangle
     stroke(0) # to make following lines black
     strokeWeight(2)

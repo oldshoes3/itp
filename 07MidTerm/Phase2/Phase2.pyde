@@ -5,7 +5,7 @@ def setup():
 def draw():
     fill(255)
     noStroke()
-    arc(75, 70, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
+    arc(75, 65, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
 
     for i in range(4):
         pushMatrix()
