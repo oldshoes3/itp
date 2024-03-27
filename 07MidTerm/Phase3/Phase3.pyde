@@ -3,7 +3,7 @@ def setup():
     size(400, 400)
     background(0)
     
-def drawObject(x, y, s, r, g, b):
+def drawObject(x, y, s, r=255, g=255, b=255):
     push()
     translate(x, y)
     scale(s)
@@ -25,7 +25,7 @@ def drawObject(x, y, s, r, g, b):
     pop()
     
 def draw():
-    drawObject(0, 0, 1, 255, 255, 255)
+    drawObject(0, 0, 1)
     drawObject(150, 30, 0.2, 255, 255, 255)
     drawObject(3, 115, 2, 0, 255, 255)
     noLoop()
