@@ -25,8 +25,12 @@ def drawObject(x, y, s, r, g, b):
     pop()
     
 def draw():
-    n = 20
+    n = 3.14
+    if type(n) is float:
+        m = int(n) + 1
+    else:
+        m = n
     noLoop()
-    for i in range(n):
-        for j in range(n):
-            drawObject(width * i / n, height * j / n, float(width)/ n / 150, random(255), random(255), random(255))
+    for i in range(m):
+        for j in range(m):
+            drawObject(720.0 * i / n, 720.0 * j / n, 720.0 / n / 150, random(255), random(255), random(255))
