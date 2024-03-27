@@ -14,7 +14,9 @@ def draw():
         rect(-9, -15, 18, 30, 0, 0, 5.2, 5.20)
         popMatrix()
 
-    fill(0) # fill following shapes with black
-    circle(50, 70, 20) # left eye
-    circle(100, 70, 20) # right eye
-    triangle(75, 80, 65, 105, 85, 105) # nose
+    fill(0)
+    circle(50, 70, 20)
+    circle(100, 70, 20)
+    triangle(75, 80, 65, 105, 85, 105)
+
+    save("head_and_teeth7.png")
