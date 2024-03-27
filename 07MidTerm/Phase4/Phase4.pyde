@@ -2,7 +2,7 @@ def setup():
     frameRate(30)
     size(720, 720)
     background(0)
-    
+
 def drawObject(x, y, s, r, g, b):
     push()
     translate(x, y)
@@ -23,7 +23,6 @@ def drawObject(x, y, s, r, g, b):
     circle(100, 70, 20) # right eye
     triangle(75, 80, 65, 105, 85, 105) # nose
     pop()
-    
     
 def draw():
     n = 20
