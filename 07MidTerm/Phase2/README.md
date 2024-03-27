@@ -15,7 +15,7 @@ def setup():
 def draw():
     fill(255)
     noStroke()
-    ellipse(75, 70, 130, 110)
+    ellipse(75, 65, 130, 110)
 </pre>
 
 ## Teeth:
@@ -25,7 +25,7 @@ def draw():
 def draw():
     fill(255)
     noStroke()
-    ellipse(75, 70, 130, 110)
+    ellipse(75, 65, 130, 110)
     rect(35, 110, 80, 30) # long rectangle
     stroke(0) # to make following lines black
     line(54, 123, 54, 140) # line 1
@@ -49,7 +49,7 @@ strokeWeight(2)
 def draw():
     fill(255)
     noStroke()
-    ellipse(75, 70, 130, 110)
+    ellipse(75, 65, 130, 110)
     rect(36, 110, 18, 30, 0, 0, 5.2, 5.2)
     rect(56, 110, 18, 30, 0, 0, 5.2, 5.2)
     rect(76, 110, 18, 30, 0, 0, 5.2, 5.2)
@@ -72,7 +72,7 @@ def draw():
 def draw():
     fill(255)
     noStroke()
-    arc(75, 70, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
+    arc(75, 65, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
     rect(36, 110, 18, 30, 0, 0, 5.2, 5.2)
     rect(56, 110, 18, 30, 0, 0, 5.2, 5.2)
     rect(76, 110, 18, 30, 0, 0, 5.2, 5.2)
@@ -91,7 +91,7 @@ def draw():
 def draw():
     fill(255)
     noStroke()
-    arc(75, 70, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
+    arc(75, 65, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
     quad(35.5, 99, 32.5, 138, 51.5, 140, 54.5, 100)
     rect(56, 110, 18, 30, 0, 0, 5.2, 5.2)
     rect(76, 110, 18, 30, 0, 0, 5.2, 5.2)
@@ -118,7 +118,7 @@ def draw():
 def draw():
     fill(255)
     noStroke()
-    arc(75, 70, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
+    arc(75, 65, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
     
     pushMatrix()
     translate(45, 125)
@@ -151,7 +151,7 @@ M
 def draw():
     fill(255)
     noStroke()
-    arc(75, 70, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
+    arc(75, 65, 130, 110, 0.65 * PI, 2.35 * PI, CHORD)
     for i in range(4):
         pushMatrix()
         translate(i * 20 + 45, 125)
