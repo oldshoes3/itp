@@ -60,6 +60,6 @@ def draw():
 
 - Now instead of 5, make variable n.
     - I tried input() function so the user can input how many n*n tiling, but it seemed processing does not support input fuction. [look at the first answer of this post](https://forum.processing.org/two/discussion/23646/how-to-use-input-with-python-processing-running-on-a-mac.html)
-    - I also copied and pasted the code in the second answer in the link but it didn't work.
+        - I also copied and pasted the code in the second answer in the link but it didn't work.
 
 - maximizing coming up
