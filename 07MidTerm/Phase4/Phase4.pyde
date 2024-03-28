@@ -26,7 +26,7 @@ def drawObject(x, y, s, r=255, g=255, b=255):
  
 def draw():
 #    noLoop()
-    n = 255
+    n = 13
     if type(n) is float:
         m = int(n) + 1
     else:
