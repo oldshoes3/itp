@@ -9,4 +9,6 @@ must include:
 - Short assessments of your group members and the contributions they made
 </pre>
 
-[explore our Bass Bass, Bass, and Bass](https://oldshoes3.github.io/)
+[explore our bass Bass, bass Bass, and not bass Bass, although bass Bass is not bass Bass](https://oldshoes3.github.io/)
+
+- I 
