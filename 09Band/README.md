@@ -2,7 +2,7 @@
 
 [explore the "The Band" Band!](https://oldshoes3.github.io/)
 
-- I took the job of making the basic format of html. Since I forgot tags like <p>, <div>, etc, I got stuck and didn't know how to start. I copied the source code of [rdwrome.github.io](rdwrome.github.io) and started modifying it. started figuring out what each tag is.
+- I took the job of making the basic format of html. Since I forgot tags like p, div, br, etc, I got stuck and didn't know how to start. I copied the source code of [rdwrome.github.io](rdwrome.github.io) and started modifying it. started figuring out what each tag is.
 
 - Sharing repository is the biggest problem we encountered. One time I push push button and Neil's working got trouble to be removed. Angel made him copy the whole code and made a new file, and push it and made me pull that new file.
 
