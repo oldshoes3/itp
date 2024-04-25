@@ -39,7 +39,7 @@ for (var i = 1; i <= size; i ++) {
 - Then, I though I had to have if statement above the code.
   - if (size % 2 == 0), execute the code
   - else, I had to a new similar code with additional .concat() method.
-- The result will be a code with one 'if' that includes one 'for loop' that includes another 'if'.
+- The result will be a code with one 'if' that includes one 'for loop' that includes another 'if'. I think it could be a little dirty?
 
 ## 2nd attempt
 - Let's think like a cartesian coordinate system,
