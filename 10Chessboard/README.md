@@ -48,7 +48,7 @@ for (var i = 1; i <= size; i ++) {
 - (1, 2) is always '#', (1, 3) is always ' ', (1, 4) is always '#', ...
 - (2, 1) is always '#', (2, 2) is always ' ' , ...
 - If x and y are both even number or both odd number, it's ' '.
-- If one of x and y is even number and the other is odd number, it's '3'.
+- If one of x and y is even number and the other is odd number, it's '#'.
 - Then I can have 2 for loops, and 1 if statement that divides whether x, y are both odd-or-even or not
 - I though what I could write for if statement, and found when two numbers are both even, or both odd, the sum of two is always even, while if one of two are even and the other is odd, the sum is always odd.
 - So I wrote:
@@ -63,7 +63,6 @@ for (var i = 1; i <= size; i ++) {
 - The result has much much empty spaces.
 - It turns out console.log always break line at the end. I searched if I can make console.log without line break, and found process.stdout.write, so I replaced all console.log to process.stdout.write, but it didn't work. It turns out process.stdout.write does not work in a browser setting. It seems there is no way.
 - So I make a new variable called result with empty string, and every time ' ' or '#' should be added,  it will be appended in result.
-- Also I add result.concat('\n') between each end of two loops.
 <pre>
 var result = '';
 for (let i = 1; i <= size; i ++) {
